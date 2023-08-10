@@ -1,9 +1,20 @@
 ///<reference types="cypress"/>
 
-describe('Response Time Check', () => {
+describe('Login AU bank UAT', () => {
 
-  it('tests Login web page', () => {
+  before(function(){    
   
-      cy.visit('/');
+      cy.visit('/')
+      cy.wait(5000)
+      cy.get('#loginbtn').click();
+      cy.wait(2000)
+  })
+
+  it('tests AU bank UAT', () => {
+      
+      cy.get('#username').click();
+      cy.get('#username').type('insure');
+      cy.get('#password').click().type('123456');
+
   })
 })
