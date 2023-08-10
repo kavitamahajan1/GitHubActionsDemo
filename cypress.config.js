@@ -5,6 +5,9 @@ module.exports = defineConfig({
   viewportHeight: 720,
 
   e2e: {
+    watchForFileChanges: false,
+    defaultCommandTimeout: 3000,
+    baseUrl: "https://insurance.aubankuat.in",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

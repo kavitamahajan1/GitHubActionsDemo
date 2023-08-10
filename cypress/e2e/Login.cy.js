@@ -4,6 +4,6 @@ describe('Response Time Check', () => {
 
   it('tests Login web page', () => {
   
-      cy.visit('https://insurance.aubankuat.in/');
+      cy.visit('/');
   })
   })
