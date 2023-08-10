@@ -6,4 +6,4 @@ describe('Response Time Check', () => {
   
       cy.visit('/');
   })
-  })
+})
