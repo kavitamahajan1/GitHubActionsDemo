@@ -6,6 +6,6 @@ describe('Login SBI general', () => {
     
    // console.log('SBI general link works');
     
-    cy.visit('http://13.234.16.249:1027/sis/input.aspx');
+    cy.visit('https://bi.bajajallianzlife.com/SIS/Need.aspx');
   })
 })
